@@ -1,0 +1,1019 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jun  3 23:18:55 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+PAPERSIZE = a4
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# makefile (from 'Makefile', line 32)
+INCLUDES = -I${DIRFECHCAD} -I${DIRTESTS} -I.
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/pablo/Downloads/Reyes_Torrejon_Pablo/P4
+# makefile
+SHELL = /bin/sh
+# makefile (from 'Makefile', line 21)
+P := P4
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+JOURNAL_STREAM = 8:34582
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 111)
+HDRS = $(OWN_HDRS) $(TEST_HDRS)
+# makefile (from '../Tests-auto/test-caso4-auto.d', line 1)
+MAKEFILE_LIST :=  Makefile usuario.d tarjeta.d articulo.d pedido-articulo.d pedido.d usuario-pedido.d test-consola.d ../Tests-auto/test-caso0-cadena-auto.d ../Tests-auto/test-caso0-fecha-auto.d ../Tests-auto/test-caso1-2-auto.d ../Tests-auto/test-auto.d ../Tests-auto/test-caso3-auto.d ../Tests-auto/test-caso4-auto.d
+# makefile (from 'Makefile', line 114)
+D = ${AP1_AP2_N}/$P
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = pablo
+# makefile (from 'Makefile', line 66)
+CXXFLAGS = ${STD} -g -pedantic -Wall 
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 82)
+OWN_SRCS = usuario.cpp tarjeta.cpp articulo.cpp pedido-articulo.cpp pedido.cpp usuario-pedido.cpp
+# makefile (from 'Makefile', line 54)
+CPPFLAGS = ${INCLUDES} -D$P
+# environment
+MANAGERPID = 1292
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = es_ES.UTF-8
+# environment
+VSCODE_CWD = /home/pablo
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+SESSION_MANAGER = local/pablo-VirtualBox:@/tmp/.ICE-unix/1541,unix/pablo-VirtualBox:/tmp/.ICE-unix/1541
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 105)
+CHECK_SRC = libreria_check.cpp
+# makefile (from 'Makefile', line 103)
+TEST_EXE = test-$P-auto
+# makefile (from 'Makefile', line 101)
+TEST_HDRS = ${DIRTESTS}/test-auto.hpp ${DIRTESTS}/fct.h
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 2912c419c9a146a88920f68818f92fa7
+# makefile (from 'Makefile', line 71)
+LDFLAGS = 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 206)
+FICHEROS_ENTREGA = $D/usuario.hpp  $D/usuario.cpp $D/articulo.hpp $D/articulo.cpp $D/tarjeta.hpp  $D/tarjeta.cpp ${AP1_AP2_N}/${DFC}/cadena.hpp ${AP1_AP2_N}/${DFC}/cadena.cpp ${AP1_AP2_N}/${DFC}/fecha.hpp  ${AP1_AP2_N}/${DFC}/fecha.cpp ${AP1_AP2_N}/${DFC}/Makefile $D/pedido.hpp   $D/pedido.cpp $D/pedido-articulo.hpp $D/pedido-articulo.cpp $D/usuario-pedido.hpp  $D/usuario-pedido.cpp
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2559
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/pablo/Downloads/Reyes_Torrejon_Pablo/P4
+# makefile (from 'Makefile', line 102)
+TEST_OBJS = $(TEST_SRCS:.cpp=.o)
+# makefile (from 'Makefile', line 19)
+NA = $(shell dirname ${PWD})
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1503
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/pablo
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/pablo/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = pablo
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from 'Makefile', line 76)
+EXTLIBS = -lcrypt
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = es_ES.UTF-8
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# makefile (from 'Makefile', line 109)
+SRCS = ${OWN_SRCS} $(MAIN_SRCS) ${TEST_SRCS} $(CHECK_SRC) Makefile Make_check.mk
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 107)
+CHECK_EXE = ${CHECK_SRC:.cpp=}
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-90d45b52-2027-41e1-bdd4-7026e8a0a11e.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = pablo
+# environment
+LC_MONETARY = es_ES.UTF-8
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 89)
+MAIN_OBJS = $(MAIN_SRCS:.cpp=.o)
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from 'Makefile', line 75)
+LOCALLIBS = ${DIRFECHCAD}/cadena.o ${DIRFECHCAD}/fecha.o ${DIRLUHN}/luhn.o
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = es_ES.UTF-8
+# makefile (from 'Makefile', line 26)
+DIRFECHCAD = ../${DFC}
+# default
+MAKE_COMMAND := make
+# makefile (from 'Makefile', line 49)
+STD = -std=c++17
+# makefile (from 'Makefile', line 90)
+MAIN_EXE = ${MAIN_SRCS:.cpp=}
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_CA:en
+# makefile (from 'Makefile', line 113)
+NOMBRETAR = ../../${AP1_AP2_N}.tar.gz
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-6c27201a-1.67.2-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'Makefile', line 84)
+OWN_HDRS = $(OWN_SRCS:.cpp=.hpp)
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = es_ES.UTF-8
+# makefile (from 'Makefile', line 31)
+DIRTESTS = ../Tests-auto
+# makefile (from 'Makefile', line 99)
+TEST_SRCS = ${DIRTESTS}/test-caso0-cadena-auto.cpp ${DIRTESTS}/test-caso0-fecha-auto.cpp ${DIRTESTS}/test-caso1-2-auto.cpp ${DIRTESTS}/test-auto.cpp ${DIRTESTS}/test-caso3-auto.cpp ${DIRTESTS}/test-caso4-auto.cpp
+# environment
+QT_ACCESSIBILITY = 1
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = es_ES.UTF-8
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 40)
+CXX = g++
+# environment
+LC_MEASUREMENT = es_ES.UTF-8
+# makefile (from 'Makefile', line 86)
+OWN_OBJS = $(OWN_SRCS:.cpp=.o)
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 20)
+AP1_AP2_N = $(notdir ${NA})
+# makefile (from 'Makefile', line 25)
+DFC = P1
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# makefile (from 'Makefile', line 77)
+LIBS = ${LOCALLIBS} ${EXTLIBS}
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+ 
+# makefile (from 'Makefile', line 106)
+CHECK_OBJ = ${CHECK_SRC:.cpp=.o}
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = es_ES.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = es_ES.UTF-8
+# makefile (from 'Makefile', line 88)
+MAIN_SRCS = test-consola.cpp
+# environment
+LANG = C
+# environment
+VSCODE_PID = 2559
+# makefile (from 'Makefile', line 35)
+DIRLUHN = ..
+# variable set hash-table stats:
+# Load=143/1024=14%, Rehash=0, Collisions=31/301=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2053, inode 350524): 31 files, no impossibilities.
+# ../Tests-auto (device 2053, inode 350526): No files, no impossibilities so far.
+
+# 31 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+%.d: %.cpp
+#  recipe to execute (from 'Makefile', line 159):
+	@$(CXX) -MM -MF $@ ${CPPFLAGS} $(CXXFLAGS) $<
+	@sed --regexp-extended --in-place 's,($*)\.o[ :]*,\1.o $@ : ,g' $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+fecha.o: ../P1/fecha.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 169):
+	${MAKE} --directory=${DIRFECHCAD} --file=${DIRFECHCAD}/Makefile $@
+
+# Not a target:
+../Tests-auto/test-caso1-2-auto.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-25 11:02:52
+#  File has been updated.
+#  Successfully updated.
+
+test-caso0-cadena-auto.o: ../Tests-auto/test-caso0-cadena-auto.cpp ../Tests-auto/test-auto.hpp ../Tests-auto/fct.h ../P1/fecha.hpp ../P1/cadena.hpp articulo.hpp cadena.hpp fecha.hpp tarjeta.hpp usuario.hpp pedido.hpp tarjeta.hpp usuario-pedido.hpp usuario.hpp pedido.hpp pedido-articulo.hpp articulo.hpp pedido-articulo.hpp usuario-pedido.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: test-consola test-P4-auto
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  recipe to execute (from 'Makefile', line 120):
+	@echo "Prueba 'make help' para más objetivos interesantes"
+
+.PHONY: all clean allclean distclean dist check valgrind tests test-noauto test-auto help
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cadena.o: ../P1/cadena.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 167):
+	${MAKE} --directory=${DIRFECHCAD} --file=${DIRFECHCAD}/Makefile $@
+
+# Not a target:
+libreria_check.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../P1/fecha.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-03 23:10:40.794973308
+#  File has been updated.
+#  Successfully updated.
+
+articulo.o: articulo.cpp articulo.hpp cadena.hpp fecha.hpp
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+.SILENT: help variables
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+../Tests-auto/test-caso1-2-auto.d: ../Tests-auto/test-caso1-2-auto.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '../Tests-auto/test-caso1-2-auto'
+#  Last modified 2022-06-03 23:18:52.916341971
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 159):
+	@$(CXX) -MM -MF $@ ${CPPFLAGS} $(CXXFLAGS) $<
+	@sed --regexp-extended --in-place 's,($*)\.o[ :]*,\1.o $@ : ,g' $@
+
+distclean: allclean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 190):
+	${RM} ${RMFLAGS} ${NOMBRETAR}
+
+usuario.o: usuario.cpp usuario.hpp cadena.hpp tarjeta.hpp fecha.hpp articulo.hpp
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+tests: test-noauto test-auto
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+../Tests-auto/test-caso0-cadena-auto.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-25 11:02:52
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+pedido.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-31 21:44:40
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test-auto: test-P4-auto
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 131):
+	./$<
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-02 21:51:32.051086
+#  File has been updated.
+#  Successfully updated.
+
+.EXPORT_ALL_VARIABLES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test-caso4-auto.o: ../Tests-auto/test-caso4-auto.cpp ../Tests-auto/test-auto.hpp ../Tests-auto/fct.h ../P1/fecha.hpp ../P1/cadena.hpp articulo.hpp cadena.hpp fecha.hpp tarjeta.hpp usuario.hpp pedido.hpp tarjeta.hpp usuario-pedido.hpp usuario.hpp pedido.hpp pedido-articulo.hpp articulo.hpp pedido-articulo.hpp usuario-pedido.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test-consola.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-30 09:28:02
+#  File has been updated.
+#  Successfully updated.
+
+../Tests-auto/test-caso0-cadena-auto.d: ../Tests-auto/test-caso0-cadena-auto.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '../Tests-auto/test-caso0-cadena-auto'
+#  Last modified 2022-06-03 23:18:53.848103034
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 159):
+	@$(CXX) -MM -MF $@ ${CPPFLAGS} $(CXXFLAGS) $<
+	@sed --regexp-extended --in-place 's,($*)\.o[ :]*,\1.o $@ : ,g' $@
+
+test-auto.o: ../Tests-auto/test-auto.cpp ../Tests-auto/test-auto.hpp ../Tests-auto/fct.h ../P1/fecha.hpp ../P1/cadena.hpp articulo.hpp cadena.hpp fecha.hpp tarjeta.hpp usuario.hpp pedido.hpp tarjeta.hpp usuario-pedido.hpp usuario.hpp pedido.hpp pedido-articulo.hpp articulo.hpp pedido-articulo.hpp usuario-pedido.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../Tests-auto/test-auto.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-02 15:31:52.929550989
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+pedido.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-31 21:40:44
+#  File has been updated.
+#  Successfully updated.
+
+test-noauto: test-consola
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 127):
+	./$<
+
+# Not a target:
+tarjeta.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-31 18:15:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../Tests-auto/test-caso4-auto.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-25 11:02:52
+#  File has been updated.
+#  Successfully updated.
+
+test-caso0-fecha-auto.o: ../Tests-auto/test-caso0-fecha-auto.cpp ../Tests-auto/test-auto.hpp ../Tests-auto/fct.h ../P1/fecha.hpp ../P1/cadena.hpp articulo.hpp cadena.hpp fecha.hpp tarjeta.hpp usuario.hpp pedido.hpp tarjeta.hpp usuario-pedido.hpp usuario.hpp pedido.hpp pedido-articulo.hpp articulo.hpp pedido-articulo.hpp usuario-pedido.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test-caso3-auto.o: ../Tests-auto/test-caso3-auto.cpp ../Tests-auto/test-auto.hpp ../Tests-auto/fct.h ../P1/fecha.hpp ../P1/cadena.hpp articulo.hpp cadena.hpp fecha.hpp tarjeta.hpp usuario.hpp pedido.hpp tarjeta.hpp usuario-pedido.hpp usuario.hpp pedido.hpp pedido-articulo.hpp articulo.hpp pedido-articulo.hpp usuario-pedido.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../P1/cadena.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test-consola.d: test-consola.cpp test-consola.cpp fecha.hpp usuario.hpp cadena.hpp tarjeta.hpp articulo.hpp pedido.hpp usuario-pedido.hpp pedido-articulo.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'test-consola'
+#  Last modified 2022-06-03 23:18:54.100038426
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 159):
+	@$(CXX) -MM -MF $@ ${CPPFLAGS} $(CXXFLAGS) $<
+	@sed --regexp-extended --in-place 's,($*)\.o[ :]*,\1.o $@ : ,g' $@
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+ 
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 226):
+	echo "make [all]          -- Construye los programas de prueba"
+	echo "make tests          -- Construye y ejecuta los programas de prueba"
+	echo "make test-noauto    -- Construye y ejecuta el programa de prueba «de consola»"
+	echo "make test-auto      -- Construye y ejecuta el programa de pruebas automáticas"
+	echo "make check          -- Construye y ejecuta el programa de comprobaciones estáticas de código fuente"
+	echo "make valgrind       -- Construye y ejecuta con valgrind los programas de prueba"
+	echo "make ${MAIN_EXE}   -- Construye el programa de prueba «de consola»"
+	echo "make ${TEST_EXE}   -- Construye el programa de pruebas automáticas"
+	echo "make ${CHECK_EXE} -- Construye el programa de comprobaciones estáticas de código fuente"
+	echo "make clean          -- Borra los programas de pruebas y comprobaciones, y los módulos objeto"
+	echo "make allclean       -- Borra como 'clean' más los módulos objeto de P1 y comprobaciones estáticas de código fuente"
+	echo "make distclean      -- Borra como 'allclean' más el archivo de entregas"
+	echo "make dist           -- Borra como 'distclean' y crea el archivo de entrega en ${NOMBRETAR}"
+	echo "make help           -- Muestra esta ayuda"
+	echo "make variables      -- Muestra las variables más importantes definidas en este Makefile"
+
+variables:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 243):
+	echo "---- Principales variables o macros definidas en el Makefile ----"
+	echo "--- Lugares (directorios)"
+	echo "AP1_AP2_N = \"$(AP1_AP2_N)\" -- Directorio donde están las prácticas de POO"
+	echo "P = \"$P\" -- Nombre de esta práctica y su directorio"
+	echo "D = \"$D\" -- Ídem, desde el directorio padre de las prácticas de POO"
+	echo "DIRFECHCAD = \"$(DIRFECHCAD)\" -- Directorio de la práctica 1 donde están las clases Fecha y Cadena"
+	echo "DIRTESTS = \"$(DIRTESTS)\" -- Directorio de los programas de pruebas automáticas"
+	echo "DIRLUHN = \"$(DIRLUHN)\" -- Directorio donde está el fichero con el algoritmo de Luhn"
+	echo "--- Traducción (preprocesado, compilación, enlazado)"
+	echo "CXX = \"$(CXX)\" -- El \"compilador\""
+	echo "CPPFLAGS = \"$(CPPFLAGS)\" -- Opciones para el preprocesador"
+	echo "CXXFLAGS = \"$(CXXFLAGS)\" -- Opciones para el compilador"
+	echo "LDFLAGS = \"$(LDFLAGS)\" -- Opciones para el enlazador"
+	echo "LIBS = \"$(LIBS)\" -- Bibliotecas con las que hay que enlazar"
+	echo "--- Ficheros"
+	echo "OWN_SRCS = \"$(OWN_SRCS)\" -- Fuentes en C++ que hay que hacer"
+	echo "OWN_HDRS = \"$(OWN_HDRS)\" -- Cabeceras en C++ que hay que hacer"
+	echo "SRCS = \"$(SRCS)\" -- Todos los ficheros fuente en C++"
+	echo "HDRS = \"$(HDRS)\" -- Todos los ficheros de cabecera en C++"
+	echo "MAIN_SRCS = \"$(MAIN_SRCS)\" -- Fuente C++ del programa de prueba"
+	echo "MAIN_EXE = \"$(MAIN_EXE)\" -- El programa de prueba"
+	echo "TEST_SRCS = \"$(TEST_SRCS)\" -- Fuentes C++ del programa de pruebas unitarias automáticas"
+	echo "TEST_HDRS = \"$(TEST_HDRS)\" -- Cabeceras C++ del programa de pruebas automáticas"
+	echo "TEST_EXE = \"$(TEST_EXE)\" -- Programa de pruebas unitarias automáticas"
+	echo "CHECK_SRC = \"$(CHECK_SRC)\" -- Fuente C++ del programa de comprobaciones estáticas de código fuente C++"
+	echo "CHECK_EXE = \"$(CHECK_EXE)\" -- Programa de comprobaciones estáticas de código fuente"
+	echo "NOMBRETAR = \"$(NOMBRETAR)\" -- El archivo comprimido con lo que hay que entregar"
+	echo "FICHEROS_ENTREGA = \"$(FICHEROS_ENTREGA)\" -- Los ficheros que están en el archivo \"$(NOMBRETAR)\""
+
+# Not a target:
+../Tests-auto/test-caso1-2-auto.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+../Tests-auto/test-auto.d: ../Tests-auto/test-auto.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '../Tests-auto/test-auto'
+#  Last modified 2022-06-03 23:18:52.432466059
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 159):
+	@$(CXX) -MM -MF $@ ${CPPFLAGS} $(CXXFLAGS) $<
+	@sed --regexp-extended --in-place 's,($*)\.o[ :]*,\1.o $@ : ,g' $@
+
+# Not a target:
+../Tests-auto/test-auto.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../Tests-auto/test-caso0-fecha-auto.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-18 12:12:39
+#  File has been updated.
+#  Successfully updated.
+
+allclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 185):
+	${RM} ${RMFLAGS} ${LOCALLIBS}
+	${MAKE} --makefile=Make_check.mk $@
+
+pedido.d: pedido.cpp pedido.cpp pedido.hpp tarjeta.hpp fecha.hpp cadena.hpp usuario-pedido.hpp usuario.hpp pedido-articulo.hpp articulo.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'pedido'
+#  Last modified 2022-06-03 23:18:54.391963563
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 159):
+	@$(CXX) -MM -MF $@ ${CPPFLAGS} $(CXXFLAGS) $<
+	@sed --regexp-extended --in-place 's,($*)\.o[ :]*,\1.o $@ : ,g' $@
+
+# Not a target:
+../Tests-auto/test-caso3-auto.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-25 11:02:52
+#  File has been updated.
+#  Successfully updated.
+
+tarjeta.d: tarjeta.cpp tarjeta.cpp tarjeta.hpp fecha.hpp cadena.hpp usuario.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'tarjeta'
+#  Last modified 2022-06-03 23:18:54.827851775
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 159):
+	@$(CXX) -MM -MF $@ ${CPPFLAGS} $(CXXFLAGS) $<
+	@sed --regexp-extended --in-place 's,($*)\.o[ :]*,\1.o $@ : ,g' $@
+
+# Not a target:
+tarjeta.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-17 19:09:36
+#  File has been updated.
+#  Successfully updated.
+
+../Tests-auto/test-caso4-auto.d: ../Tests-auto/test-caso4-auto.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '../Tests-auto/test-caso4-auto'
+#  Last modified 2022-06-03 23:18:51.264765517
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 159):
+	@$(CXX) -MM -MF $@ ${CPPFLAGS} $(CXXFLAGS) $<
+	@sed --regexp-extended --in-place 's,($*)\.o[ :]*,\1.o $@ : ,g' $@
+
+# Not a target:
+usuario-pedido.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-17 22:30:38
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+pedido-articulo.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-31 21:44:12
+#  File has been updated.
+#  Successfully updated.
+
+test-P4-auto: ../Tests-auto/test-caso0-cadena-auto.o ../Tests-auto/test-caso0-fecha-auto.o ../Tests-auto/test-caso1-2-auto.o ../Tests-auto/test-auto.o ../Tests-auto/test-caso3-auto.o ../Tests-auto/test-caso4-auto.o usuario.o tarjeta.o articulo.o pedido-articulo.o pedido.o usuario-pedido.o ../P1/cadena.o ../P1/fecha.o ../luhn.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 151):
+	${CXX} -o $@ ${LDFLAGS} $^ ${EXTLIBS}
+
+../../Reyes_Torrejon_Pablo.tar.gz: usuario.cpp tarjeta.cpp articulo.cpp pedido-articulo.cpp pedido.cpp usuario-pedido.cpp usuario.hpp tarjeta.hpp articulo.hpp pedido-articulo.hpp pedido.hpp usuario-pedido.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 219):
+	@echo "Creando archivo en ${NOMBRETAR} con el siguiente contenido:"
+	tar --create --verbose --gzip --file=${NOMBRETAR} --directory=../.. \
+            ${FICHEROS_ENTREGA}
+
+libreria_check: libreria_check.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 155):
+	${MAKE} --file=Make_check.mk $@
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../Tests-auto/test-caso0-cadena-auto.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+../Tests-auto/test-caso0-fecha-auto.d: ../Tests-auto/test-caso0-fecha-auto.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '../Tests-auto/test-caso0-fecha-auto'
+#  Last modified 2022-06-03 23:18:53.384221989
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 159):
+	@$(CXX) -MM -MF $@ ${CPPFLAGS} $(CXXFLAGS) $<
+	@sed --regexp-extended --in-place 's,($*)\.o[ :]*,\1.o $@ : ,g' $@
+
+../Tests-auto/test-caso3-auto.d: ../Tests-auto/test-caso3-auto.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: '../Tests-auto/test-caso3-auto'
+#  Last modified 2022-06-03 23:18:51.976582975
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 159):
+	@$(CXX) -MM -MF $@ ${CPPFLAGS} $(CXXFLAGS) $<
+	@sed --regexp-extended --in-place 's,($*)\.o[ :]*,\1.o $@ : ,g' $@
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 177):
+	${RM} ${RMFLAGS} ${MAIN_EXE} ${MAIN_OBJS} ${TEST_EXE} \
+	      ${TEST_OBJS} ${DIRTESTS}/*.d ${OWN_OBJS} ${CHECK_EXE} \
+              *.d *~ \#* *.gcno *.{aux,log,dvi,toc} core
+	${MAKE} --makefile=Make_check.mk $@
+	${MAKE} --directory=${DIRFECHCAD} --file=${DIRFECHCAD}/Makefile $@
+
+# Not a target:
+../Tests-auto/fct.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+usuario-pedido.d: usuario-pedido.cpp usuario-pedido.cpp usuario-pedido.hpp usuario.hpp cadena.hpp pedido.hpp tarjeta.hpp fecha.hpp pedido-articulo.hpp articulo.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'usuario-pedido'
+#  Last modified 2022-06-03 23:18:54.279992278
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 159):
+	@$(CXX) -MM -MF $@ ${CPPFLAGS} $(CXXFLAGS) $<
+	@sed --regexp-extended --in-place 's,($*)\.o[ :]*,\1.o $@ : ,g' $@
+
+pedido-articulo.d: pedido-articulo.cpp pedido-articulo.cpp pedido-articulo.hpp articulo.hpp cadena.hpp fecha.hpp pedido.hpp tarjeta.hpp usuario-pedido.hpp usuario.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'pedido-articulo'
+#  Last modified 2022-06-03 23:18:54.547923566
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 159):
+	@$(CXX) -MM -MF $@ ${CPPFLAGS} $(CXXFLAGS) $<
+	@sed --regexp-extended --in-place 's,($*)\.o[ :]*,\1.o $@ : ,g' $@
+
+# Not a target:
+usuario-pedido.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-17 22:13:30
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+pedido-articulo.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-31 21:47:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../P1/cadena.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-03 23:10:40.226834844
+#  File has been updated.
+#  Successfully updated.
+
+test-consola: test-consola.o usuario.o tarjeta.o articulo.o pedido-articulo.o pedido.o usuario-pedido.o ../P1/cadena.o ../P1/fecha.o ../luhn.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := test-consola
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test-consola.o usuario.o tarjeta.o articulo.o pedido-articulo.o pedido.o usuario-pedido.o ../P1/cadena.o ../P1/fecha.o ../luhn.o
+# automatic
+ 
+# | := 
+# automatic
+# < := test-consola.o
+# automatic
+# ^ := test-consola.o usuario.o tarjeta.o articulo.o pedido-articulo.o pedido.o usuario-pedido.o ../P1/cadena.o ../P1/fecha.o ../luhn.o
+# automatic
+# ? := test-consola.o usuario.o tarjeta.o articulo.o pedido-articulo.o pedido.o usuario-pedido.o ../P1/cadena.o ../P1/fecha.o ../luhn.o
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/16=6%
+#  recipe to execute (from 'Makefile', line 147):
+	${CXX} -o $@ ${LDFLAGS} $^ ${EXTLIBS}
+
+dist: distclean ../../Reyes_Torrejon_Pablo.tar.gz
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+../luhn.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-31 22:57:18.90243206
+#  File has been updated.
+#  Successfully updated.
+
+test-consola.o: test-consola.cpp fecha.hpp usuario.hpp cadena.hpp tarjeta.hpp articulo.hpp pedido.hpp usuario-pedido.hpp pedido-articulo.hpp
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+articulo.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-31 21:45:20
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+fecha.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-18 09:21:08
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+usuario.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-03 20:39:32.122423603
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../Tests-auto/test-auto.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+pedido.o: pedido.cpp pedido.hpp tarjeta.hpp fecha.hpp cadena.hpp usuario-pedido.hpp usuario.hpp pedido-articulo.hpp articulo.hpp
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+tarjeta.o: tarjeta.cpp tarjeta.hpp fecha.hpp cadena.hpp usuario.hpp
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../Tests-auto/test-caso4-auto.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+cadena.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-16 19:20:32
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../P1/fecha.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+articulo.d: articulo.cpp articulo.cpp articulo.hpp cadena.hpp fecha.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'articulo'
+#  Last modified 2022-06-03 23:18:54.66389382
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 159):
+	@$(CXX) -MM -MF $@ ${CPPFLAGS} $(CXXFLAGS) $<
+	@sed --regexp-extended --in-place 's,($*)\.o[ :]*,\1.o $@ : ,g' $@
+
+check: usuario.cpp tarjeta.cpp articulo.cpp pedido-articulo.cpp pedido.cpp usuario-pedido.cpp libreria_check.cpp
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 135):
+	${MAKE} --file=Make_check.mk $@
+
+# Not a target:
+articulo.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-31 21:45:28
+#  File has been updated.
+#  Successfully updated.
+
+usuario.d: usuario.cpp usuario.cpp usuario.hpp cadena.hpp tarjeta.hpp fecha.hpp articulo.hpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'usuario'
+#  Last modified 2022-06-03 23:18:54.955818962
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 159):
+	@$(CXX) -MM -MF $@ ${CPPFLAGS} $(CXXFLAGS) $<
+	@sed --regexp-extended --in-place 's,($*)\.o[ :]*,\1.o $@ : ,g' $@
+
+# Not a target:
+usuario.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-03 14:48:08.746899334
+#  File has been updated.
+#  Successfully updated.
+
+valgrind: test-consola test-P4-auto
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 140):
+	valgrind --quiet ./${MAIN_EXE}
+	valgrind --quiet ./${TEST_EXE} --logger=minimal
+
+# Not a target:
+../Tests-auto/test-caso0-fecha-auto.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test-caso1-2-auto.o: ../Tests-auto/test-caso1-2-auto.cpp ../Tests-auto/test-auto.hpp ../Tests-auto/fct.h ../P1/fecha.hpp ../P1/cadena.hpp articulo.hpp cadena.hpp fecha.hpp tarjeta.hpp usuario.hpp pedido.hpp tarjeta.hpp usuario-pedido.hpp usuario.hpp pedido.hpp pedido-articulo.hpp articulo.hpp pedido-articulo.hpp usuario-pedido.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../Tests-auto/test-caso3-auto.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+usuario-pedido.o: usuario-pedido.cpp usuario-pedido.hpp usuario.hpp cadena.hpp pedido.hpp tarjeta.hpp fecha.hpp pedido-articulo.hpp articulo.hpp
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+pedido-articulo.o: pedido-articulo.cpp pedido-articulo.hpp articulo.hpp cadena.hpp fecha.hpp pedido.hpp tarjeta.hpp usuario-pedido.hpp usuario.hpp
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=85/1024=8%, Rehash=0, Collisions=28/398=7%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 109 / storage = 1878 B / avg = 17 B
+# current buf: size = 8162 B / used = 1878 B / count = 109 / avg = 17 B
+
+# strcache performance: lookups = 428 / hit rate = 74%
+# hash-table stats:
+# Load=109/8192=1%, Rehash=0, Collisions=17/428=4%
+# Finished Make data base on Fri Jun  3 23:18:55 2022
+
+ 

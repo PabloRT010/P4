@@ -1,0 +1,24 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/pablo/Downloads/Reyes_Torrejon_Pablo/P4'
+ 
+g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o test-consola.o test-consola.cpp
+g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o usuario.o usuario.cpp
+g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o tarjeta.o tarjeta.cpp
+g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o articulo.o articulo.cpp
+g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o pedido-articulo.o pedido-articulo.cpp
+g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o pedido.o pedido.cpp
+g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o usuario-pedido.o usuario-pedido.cpp
+g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o ../P1/cadena.o ../P1/cadena.cpp
+g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o ../P1/fecha.o ../P1/fecha.cpp
+g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o ../luhn.o ../luhn.cpp
+g++ -o test-consola  test-consola.o usuario.o tarjeta.o articulo.o pedido-articulo.o pedido.o usuario-pedido.o ../P1/cadena.o ../P1/fecha.o ../luhn.o -lcrypt
+g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o ../Tests-auto/test-caso0-cadena-auto.o ../Tests-auto/test-caso0-cadena-auto.cpp
+g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o ../Tests-auto/test-caso0-fecha-auto.o ../Tests-auto/test-caso0-fecha-auto.cpp
+g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o ../Tests-auto/test-caso1-2-auto.o ../Tests-auto/test-caso1-2-auto.cpp
+g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o ../Tests-auto/test-auto.o ../Tests-auto/test-auto.cpp
+g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o ../Tests-auto/test-caso3-auto.o ../Tests-auto/test-caso3-auto.cpp
+g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o ../Tests-auto/test-caso4-auto.o ../Tests-auto/test-caso4-auto.cpp
+g++ -o test-P4-auto  ../Tests-auto/test-caso0-cadena-auto.o ../Tests-auto/test-caso0-fecha-auto.o ../Tests-auto/test-caso1-2-auto.o ../Tests-auto/test-auto.o ../Tests-auto/test-caso3-auto.o ../Tests-auto/test-caso4-auto.o usuario.o tarjeta.o articulo.o pedido-articulo.o pedido.o usuario-pedido.o ../P1/cadena.o ../P1/fecha.o ../luhn.o -lcrypt
+echo "Prueba 'make help' para más objetivos interesantes"
+make: Leaving directory '/home/pablo/Downloads/Reyes_Torrejon_Pablo/P4'
+ 
