@@ -48,7 +48,7 @@ class Articulo{
 
 class ArticuloAlmacenable: public Articulo{
     public:
-    ArticuloAlmacenable::ArticuloAlmacenable(const Articulo::Autores& aut, const Cadena& ref, const Cadena& tit, const Fecha& fech, double prec, int st = 0):Articulo(aut, ref, tit, fech, prec), stock_(st){}    
+    ArticuloAlmacenable(const Articulo::Autores& aut, const Cadena& ref, const Cadena& tit, const Fecha& fech, double prec, int st = 0):Articulo(aut, ref, tit, fech, prec), stock_(st){}    
     int stock() const{return stock_;}
     int& stock(){return stock_;}
     virtual void impresion_especifica(std::ostream& os)const = 0; //virtual puro

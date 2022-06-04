@@ -4,8 +4,7 @@
 LineaPedido::LineaPedido(double precio_venta, unsigned cant):precio_venta_(precio_venta), cant_(cant){}
 
 std::ostream& operator <<(std::ostream& os, const LineaPedido& lp){
-    os << std::fixed << std::setprecision(2) << lp.precio_venta() << " €\t" <<
-    lp.cantidad();
+    os << std::fixed << std::setprecision(2) << lp.precio_venta() << " €\t" << lp.cantidad();
     return os;
 }
 
