@@ -9,15 +9,6 @@ class Tarjeta;
 class Usuario;
 //class Cadena;
 
-class EsBlanco: public std::unary_function<char, bool> {
-public:
-bool operator ()(char c) const;
-};
-class EsDigito: public std::unary_function<char, bool> {
-public:
-bool operator ()(char c) const;
-};
-
 class Numero{
     public:
     Numero(const Cadena& num);
@@ -47,11 +38,11 @@ class Tarjeta{
     Tarjeta(const Tarjeta& t) = delete;
     Tarjeta& operator =(const Tarjeta& t) = delete;
     //observadoras
-    const Numero& numero()const {return numero_;}
+    Numero numero()const {return numero_;}
     const Usuario* titular()const{return titular_;}
-    const Fecha& caducidad()const {return caducidad_;}
+    Fecha caducidad()const {return caducidad_;}
     bool activa()const{return activa_;}
-    const Tipo tipo() const;
+    Tipo tipo() const;
 
     bool activa(bool par){activa_ = par; return activa_;}
     void anula_titular();

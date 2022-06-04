@@ -6,46 +6,49 @@
 #include <exception>
 using namespace std;
 
-time_t now = time(nullptr);
-tm* dt = localtime(&now);
+Fecha::Fecha(unsigned d, unsigned m, unsigned a):dia_(d), mes_(m), anno_(a){
+    if(d == 0 || m == 0 || a == 0){
+        time_t now = time(nullptr);
+        tm* dt = localtime(&now);
 
-Fecha::Fecha(unsigned d, unsigned m, unsigned a){
-    
-    probar_anno(a);
-    probar_mes(m);
-    probar_dia(d,m,a);
-    
+        if (a == 0)
+            anno_ = dt->tm_year + 1900;
+        if(m == 0)
+            mes_ = dt->tm_mon + 1;   
+        if(d == 0)
+            dia_ = dt->tm_mday;
+    }
+    probar_anno(anno_);
+    probar_mes(mes_);
+    probar_dia(dia_,mes_,anno_);
 }
 void Fecha::probar_dia(unsigned d, unsigned m, unsigned a){
-    if(d != 0){
-        if(d > 31){
+    
+    if(d > 31){
 
-            throw(Invalida("No puedes poner un número mayor al 31 en el día"));
-        }
-        if((m == 4 || m == 6 || m == 9 || m == 11) && d > 30){
-            
-            throw(Invalida("Este mes no puede tener mas de 30 días"));
-        }
-        if(m == 2){
-            if(a % 4 == 0 && (a % 400 == 0 || a % 100 != 0)){
-                if(d > 29){
-                    throw(Invalida("Febrero tiene 28 días si el año no es bisiesto"));
-                }
-            }
-            else if(d > 28)//comprobamos si es bisiesto
-                throw(Invalida("No hay más de 29 días en un año bisiesto"));
-        }
-        dia_ = d;
+        throw(Invalida("No puedes poner un número mayor al 31 en el día"));
     }
-    else
-        dia_ = dt->tm_mday;
+    if((m == 4 || m == 6 || m == 9 || m == 11) && d > 30){
+            
+        throw(Invalida("Este mes no puede tener mas de 30 días"));
+    }
+    if(m == 2){
+        if(a % 4 == 0 && (a % 400 == 0 || a % 100 != 0)){
+            if(d > 29){
+                throw(Invalida("Febrero tiene 28 días si el año no es bisiesto"));
+            }
+        }
+        else if(d > 28)//comprobamos si es bisiesto
+                throw(Invalida("No hay más de 29 días en un año bisiesto"));
+    }
+    dia_ = d;
+   
+        
 }
 
-void Fecha::probar_mes(unsigned m){
-    if (m == 0){
-        mes_ = dt->tm_mon + 1;
-    }
-    else if (m > 12){
+void Fecha::probar_mes(const unsigned m){
+    
+    if (m > 12){
         throw Invalida("El mes no puede ser mayor que 12");
     }
     else{
@@ -53,14 +56,12 @@ void Fecha::probar_mes(unsigned m){
     }
 }
 
-void Fecha::probar_anno(unsigned a){
-    if (a == 0){
-        anno_ = dt->tm_year + 1900;
-    }
-    else if (a < Fecha::AnnoMinimo){
+void Fecha::probar_anno(const unsigned a){
+    
+    if (a < Fecha::AnnoMinimo){
         throw Invalida("Año menor que el año min");
     }
-    else if (a > Fecha::AnnoMaximo){
+    if (a > Fecha::AnnoMaximo){
         throw Invalida("Año mayor que el maximo");
     }
     else{
@@ -77,9 +78,7 @@ Fecha::Fecha(const char* cad){
         throw Invalida("Cadena no válida, tiene que ser de la forma dd/mm/aaaa");
     }
     else{ 
-        probar_anno(a); 
-        probar_mes(m);
-        probar_dia(d,m,a); 
+        *this = Fecha(d,m,a); 
     }
 }
 
@@ -213,6 +212,9 @@ unsigned Fecha::anno() const{
 
 //flujo
 const char* Fecha::cadena()const{
+    time_t now = time(nullptr);
+    tm* dt = localtime(&now);
+    
     locale::global(locale("es_ES.UTF-8"));
     tm* fecha_cadena = localtime(&now);
     fecha_cadena->tm_mday = dia_;

@@ -94,3 +94,11 @@ Usuario::~Usuario(){
     }
     ID_.erase(id_);
 }
+
+//observadores clase usuario
+Cadena Usuario::id() const {return id_;}
+Cadena Usuario::nombre() const {return nom_;}
+Cadena Usuario::apellidos() const {return apell_;}
+Cadena Usuario::direccion() const {return dir_;}
+const Usuario::Tarjetas& Usuario::tarjetas() const {return T;}
+const Usuario::Articulos& Usuario::compra() const {return A;}

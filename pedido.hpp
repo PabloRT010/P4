@@ -17,7 +17,7 @@ class Pedido{
     class Vacio{
         public:
         Vacio(Usuario* usu);
-        Usuario& usuario() const{return *usu_;}
+        Usuario& usuario() const;
 
         private:
         Usuario* usu_;
@@ -25,7 +25,7 @@ class Pedido{
     class Impostor{
         public:
         Impostor(Usuario* usu);
-        Usuario& usuario() const{return *usu_;}
+        Usuario& usuario() const;
 
         private:
         Usuario* usu_;
@@ -33,7 +33,7 @@ class Pedido{
     class SinStock{
         public:
         SinStock(Articulo* art);
-        Articulo& articulo() const{return *art_;}
+        Articulo& articulo() const;
 
         private:
         Articulo* art_;

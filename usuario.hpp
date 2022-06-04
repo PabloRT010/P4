@@ -49,12 +49,12 @@ class Usuario{
     Usuario& operator =(const Usuario& u) = delete;
 
     //consultoras
-    const Cadena& id() const {return id_;}
-    const Cadena& nombre() const {return nom_;}
-    const Cadena& apellidos() const {return apell_;}
-    const Cadena& direccion() const {return dir_;}
-    const Tarjetas& tarjetas() const {return T;}
-    const Articulos& compra() const {return A;}
+    Cadena id() const;
+    Cadena nombre() const ;
+    Cadena apellidos() const;
+    Cadena direccion() const; 
+    const Tarjetas& tarjetas() const; 
+    const Articulos& compra() const; 
     //asociaciones
     void es_titular_de(Tarjeta& t);
     void no_es_titular_de(Tarjeta& t);

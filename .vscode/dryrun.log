@@ -2,6 +2,7 @@ make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/pablo/Downloads/Reyes_Torrejon_Pablo/P4'
  
 g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o test-consola.o test-consola.cpp
+ 
 g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o usuario.o usuario.cpp
 g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o tarjeta.o tarjeta.cpp
 g++ -std=c++17 -g -pedantic -Wall  -I../P1 -I../Tests-auto -I. -DP4  -c -o articulo.o articulo.cpp

@@ -1,5 +1,8 @@
 #include"articulo.hpp"
 
+
+
+
 const Cadena& Articulo::referencia()const{
     return cod_ref_;
 }
@@ -20,13 +23,6 @@ double& Articulo::precio(){
     return precio_;
 }
 
-int Articulo::stock()const{
-    return stock_;
-}
-
-int& Articulo::stock(){
-    return stock_;
-}
 
 std::ostream& operator <<(std::ostream& os, Articulo& art){
     os<<"["<<art.referencia()<<"] "<<'"'<<art.titulo()<<'"'<<", de ";
@@ -43,3 +39,4 @@ std::ostream& operator <<(std::ostream& os, Articulo& art){
     art.impresion_especifica(os);
     return os;
 }
+

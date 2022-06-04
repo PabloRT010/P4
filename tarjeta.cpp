@@ -2,41 +2,39 @@
 #include "usuario.hpp"
 #include "cadena.hpp"
 #include <cstddef>
-#include <algorithm>
-#include <iomanip>
 bool luhn(const Cadena& numero);
 std::set<Numero> Tarjeta:: TAR_;
 
-bool EsBlanco::operator ()(char c) const {
-return isspace(c);
-}
-bool EsDigito::operator ()(char c) const {
-return isdigit(c);
-}
-
 Numero::Numero(const Cadena& num){
     
-    int tam = num.length();
-    char* aux = new char[tam + 1];
-    char* ini = aux;
-    char* fin = aux + tam;
-    strcpy(aux, num.c_str());
-
-    fin = remove_if(ini, fin, EsBlanco()); //iterator que apunta a la siguiente posición que se eliminó el espacio
-    *fin = '\0';
-    tam = strlen(aux);
+    char aux[num.length() + 1];
+    int i = 0;
+    int j;
     
-    if(tam < 13 || tam > 19)
-    throw Numero::Incorrecto(Numero::LONGITUD);
+    for(j = 0; j < num.length(); j++){ //quitamos los espacios en blanco y guardamos en aux
 
-    if(find_if(ini, fin, not1(EsDigito())) != fin)
-    throw Numero::Incorrecto(Numero::DIGITOS);
+        if (isdigit(num[j])){
 
-    if(!luhn(aux))
-    throw Numero::Incorrecto(Numero::NO_VALIDO);
+            aux[i] = num[j];
+            i++; 
+        }
+        else if(isalpha(num[j])){ //comprobamos si es una letra
 
-    num_ = aux;
-    delete[] aux;
+            throw Incorrecto(DIGITOS);
+        }
+    }
+    aux[i] = '\0';
+    Cadena A = aux;
+
+    if(A.length() < 13 || A.length() > 19){
+        throw Incorrecto(LONGITUD);
+    }
+
+    if(!luhn(A)){
+        throw Incorrecto(NO_VALIDO);
+    }
+    num_ = A;
+
 }
 
 /*bool luhn(const Cadena& numero){
@@ -82,7 +80,7 @@ Tarjeta::Tarjeta(const Numero& num, Usuario& tit, const Fecha& fech): numero_(nu
 
 }
 
-const Tarjeta::Tipo Tarjeta::tipo()const{
+Tarjeta::Tipo Tarjeta::tipo()const{
     Tipo aux;
     
     if(numero_.num_[0] == '3'){ 

@@ -41,9 +41,9 @@ class Fecha{
     Fecha operator--(int);    //postdecremento de una fecha (pasamos el entero para diferenciar)
 
     private:
-    void probar_dia(unsigned d, unsigned m, unsigned a);
-    void probar_mes(unsigned m);
-    void probar_anno(unsigned a);
+    void probar_dia(const unsigned d, const unsigned m, const unsigned a);
+    void probar_mes(const unsigned m);
+    void probar_anno(const unsigned a);
     unsigned dia_, mes_, anno_;
 };
 //operadores:
