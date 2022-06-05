@@ -9,12 +9,12 @@
 class Autor{
     public:
     Autor(const Cadena& nom, const Cadena& apell, const Cadena& direc):nom_(nom), apell_(apell), direc_(direc){}
-    const Cadena& nombre() const{return nom_;}
-    const Cadena& apellidos() const {return apell_;}
-    const Cadena& direccion() const {return direc_;}
+    Cadena nombre() const{return nom_;}
+    Cadena apellidos() const {return apell_;}
+    Cadena direccion() const {return direc_;}
 
     private:
-    const Cadena nom_, apell_, direc_;
+    Cadena nom_, apell_, direc_;
 };
 
 class Articulo{
@@ -90,7 +90,7 @@ class LibroDigital: public Articulo{
 
 };
 
-std::ostream& operator <<(std::ostream& os, Articulo& art);
+std::ostream& operator <<(std::ostream& os, const Articulo& art);
 
 
 

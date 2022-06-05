@@ -35,7 +35,7 @@ void LibroDigital::impresion_especifica(std::ostream& os) const{
     os<< "A la venta hasta el "<<fech_expir_<<".";
 }
 
-std::ostream& operator <<(std::ostream& os, Articulo& art){
+std::ostream& operator <<(std::ostream& os, const Articulo& art){
     os<<"["<<art.referencia()<<"] "<<'"'<<art.titulo()<<'"'<<", de ";
 	
 	for(auto i = art.autores().begin();i!=art.autores().end(); i++){
