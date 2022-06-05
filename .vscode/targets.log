@@ -1,33 +1,18 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target '../Tests-auto/test-caso4-auto.o', needed by 'test-P4-auto'.  Stop.
-
 # GNU Make 4.2.1
- 
 # Built for x86_64-pc-linux-gnu
- 
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
- 
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
- 
 # This is free software: you are free to change and redistribute it.
- 
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
- 
-# Make data base, printed on Sun Jun  5 13:14:37 2022
- 
+# Make data base, printed on Sun Jun  5 18:37:18 2022
 
 # Variables
- 
 
- 
 # 'override' directive
- 
 GNUMAKEFLAGS := 
- 
 # automatic
- 
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
@@ -68,7 +53,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupp
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:35441
+JOURNAL_STREAM = 8:34481
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'Makefile', line 111)
@@ -98,7 +83,7 @@ OWN_SRCS = usuario.cpp tarjeta.cpp articulo.cpp pedido-articulo.cpp pedido.cpp u
 # makefile (from 'Makefile', line 54)
 CPPFLAGS = ${INCLUDES} -D$P
 # environment
-MANAGERPID = 1311
+MANAGERPID = 1286
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -114,7 +99,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/pablo-VirtualBox:@/tmp/.ICE-unix/1566,unix/pablo-VirtualBox:/tmp/.ICE-unix/1566
+SESSION_MANAGER = local/pablo-VirtualBox:@/tmp/.ICE-unix/1538,unix/pablo-VirtualBox:/tmp/.ICE-unix/1538
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # makefile (from 'Makefile', line 105)
@@ -130,7 +115,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 569b70ea1cff489196e50ccd4040786a
+INVOCATION_ID = 0f73922b7e9d4f558fbb2a7b0f62f499
 # makefile (from 'Makefile', line 71)
 LDFLAGS = 
 # default
@@ -144,7 +129,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 2015
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4226
 # automatic
 %F = $(notdir $%)
 # environment
@@ -160,7 +145,7 @@ NA = $(shell dirname ${PWD})
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1528
+SSH_AGENT_PID = 1500
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -204,7 +189,7 @@ CHECK_EXE = ${CHECK_SRC:.cpp=}
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-0d2b3ba6-041e-45db-abed-982502d126fd.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-6e1faad8-07a7-428f-9336-f7a9bcacb5e0.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -291,6 +276,7 @@ LIBS = ${LOCALLIBS} ${EXTLIBS}
 SUFFIXES := 
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
+ 
 # makefile (from 'Makefile', line 106)
 CHECK_OBJ = ${CHECK_SRC:.cpp=.o}
 # environment
@@ -304,16 +290,15 @@ LC_IDENTIFICATION = es_ES.UTF-8
 # environment
 LC_ADDRESS = es_ES.UTF-8
 # makefile (from 'Makefile', line 88)
- 
 MAIN_SRCS = test-consola.cpp
 # environment
 LANG = C
 # environment
-VSCODE_PID = 2015
+VSCODE_PID = 4226
 # makefile (from 'Makefile', line 35)
 DIRLUHN = ..
 # variable set hash-table stats:
-# Load=143/1024=14%, Rehash=0, Collisions=31/295=11%
+# Load=143/1024=14%, Rehash=0, Collisions=31/298=10%
 
 # Pattern-specific Variable Values
 
@@ -321,10 +306,10 @@ DIRLUHN = ..
 
 # Directories
 
-# . (device 2053, inode 350524): 40 files, no impossibilities.
+# . (device 2053, inode 350524): 41 files, no impossibilities.
 # ../Tests-auto (device 2053, inode 350526): No files, no impossibilities so far.
 
-# 40 files, no impossibilities in 2 directories.
+# 41 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -347,7 +332,7 @@ fecha.o: ../P1/fecha.hpp
 # Not a target:
 ../Tests-auto/test-caso1-2-auto.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-25 11:02:52
+#  Last modified 2022-06-05 17:29:15.626812178
 #  File has been updated.
 #  Successfully updated.
 
@@ -360,8 +345,28 @@ all: test-consola test-P4-auto
 #  Phony target (prerequisite of .PHONY).
 #  Command line target.
 #  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
 #  File does not exist.
-#  File has not been updated.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test-consola test-P4-auto
+# automatic
+# | := 
+# automatic
+# < := test-consola
+# automatic
+# ^ := test-consola test-P4-auto
+# automatic
+# ? := test-consola test-P4-auto
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
 #  recipe to execute (from 'Makefile', line 120):
 	@echo "Prueba 'make help' para más objetivos interesantes"
 
@@ -386,13 +391,13 @@ libreria_check.cpp:
 # Not a target:
 ../P1/fecha.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 19:31:20.055347007
+#  Last modified 2022-06-05 17:06:57.016587791
 #  File has been updated.
 #  Successfully updated.
 
 articulo.o: articulo.cpp articulo.hpp cadena.hpp fecha.hpp
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 20:09:32.05223371
+#  Last modified 2022-06-05 17:06:53.444923333
 #  File has been updated.
 #  Successfully updated.
 
@@ -404,7 +409,7 @@ articulo.o: articulo.cpp articulo.hpp cadena.hpp fecha.hpp
 ../Tests-auto/test-caso1-2-auto.d: ../Tests-auto/test-caso1-2-auto.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: '../Tests-auto/test-caso1-2-auto'
-#  Last modified 2022-06-05 13:14:34.430351344
+#  Last modified 2022-06-05 18:37:17.650217451
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 159):
@@ -421,7 +426,7 @@ distclean: allclean
 
 usuario.o: usuario.cpp usuario.hpp cadena.hpp tarjeta.hpp fecha.hpp articulo.hpp
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 19:31:15.418228673
+#  Last modified 2022-06-05 17:59:28.557768235
 #  File has been updated.
 #  Successfully updated.
 
@@ -444,6 +449,12 @@ pedido.hpp:
 #  Last modified 2022-06-03 21:08:27.676887
 #  File has been updated.
 #  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 test-auto: test-P4-auto
 #  Phony target (prerequisite of .PHONY).
@@ -480,7 +491,7 @@ test-consola.cpp:
 ../Tests-auto/test-caso0-cadena-auto.d: ../Tests-auto/test-caso0-cadena-auto.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: '../Tests-auto/test-caso0-cadena-auto'
-#  Last modified 2022-06-05 13:14:35.65435134
+#  Last modified 2022-06-05 18:37:17.874161666
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 159):
@@ -517,14 +528,14 @@ test-noauto: test-consola
 # Not a target:
 tarjeta.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 16:37:35.5624
+#  Last modified 2022-06-05 17:59:05.991837358
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 ../Tests-auto/test-caso4-auto.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-25 11:02:52
+#  Last modified 2022-06-05 13:59:54.808414866
 #  File has been updated.
 #  Successfully updated.
 
@@ -541,13 +552,14 @@ test-caso3-auto.o: ../Tests-auto/test-caso3-auto.cpp ../Tests-auto/test-auto.hpp
 # Not a target:
 ../P1/cadena.hpp:
 #  Implicit rule search has not been done.
+ 
 #  Modification time never checked.
 #  File has not been updated.
 
 test-consola.d: test-consola.cpp test-consola.cpp fecha.hpp usuario.hpp cadena.hpp tarjeta.hpp articulo.hpp pedido.hpp usuario-pedido.hpp pedido-articulo.hpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'test-consola'
-#  Last modified 2022-06-05 13:14:35.950351339
+#  Last modified 2022-06-05 18:37:17.910152698
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 159):
@@ -580,7 +592,6 @@ variables:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
- 
 #  recipe to execute (from 'Makefile', line 243):
 	echo "---- Principales variables o macros definidas en el Makefile ----"
 	echo "--- Lugares (directorios)"
@@ -614,14 +625,14 @@ variables:
 # Not a target:
 ../Tests-auto/test-caso1-2-auto.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 19:31:25.224594007
+#  Last modified 2022-06-05 17:45:07.647772166
 #  File has been updated.
 #  Successfully updated.
 
 ../Tests-auto/test-auto.d: ../Tests-auto/test-auto.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: '../Tests-auto/test-auto'
-#  Last modified 2022-06-05 13:14:33.634351347
+#  Last modified 2022-06-05 18:37:17.166337987
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 159):
@@ -653,7 +664,7 @@ allclean: clean
 pedido.d: pedido.cpp pedido.cpp pedido.hpp tarjeta.hpp fecha.hpp cadena.hpp usuario-pedido.hpp usuario.hpp pedido-articulo.hpp articulo.hpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'pedido'
-#  Last modified 2022-06-05 13:14:36.194351338
+#  Last modified 2022-06-05 18:37:17.978135766
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 159):
@@ -670,7 +681,7 @@ pedido.d: pedido.cpp pedido.cpp pedido.hpp tarjeta.hpp fecha.hpp cadena.hpp usua
 tarjeta.d: tarjeta.cpp tarjeta.cpp tarjeta.hpp fecha.hpp cadena.hpp usuario.hpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'tarjeta'
-#  Last modified 2022-06-05 13:14:36.430351337
+#  Last modified 2022-06-05 18:37:18.086108472
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 159):
@@ -680,14 +691,14 @@ tarjeta.d: tarjeta.cpp tarjeta.cpp tarjeta.hpp fecha.hpp cadena.hpp usuario.hpp
 # Not a target:
 tarjeta.hpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 17:03:15.303983
+#  Last modified 2022-06-05 17:58:10.832892468
 #  File has been updated.
 #  Successfully updated.
 
 ../Tests-auto/test-caso4-auto.d: ../Tests-auto/test-caso4-auto.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: '../Tests-auto/test-caso4-auto'
-#  Last modified 2022-06-05 13:14:31.234351355
+#  Last modified 2022-06-05 18:37:16.102598433
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 159):
@@ -710,8 +721,9 @@ pedido-articulo.cpp:
 
 test-P4-auto: ../Tests-auto/test-caso0-cadena-auto.o ../Tests-auto/test-caso0-fecha-auto.o ../Tests-auto/test-caso1-2-auto.o ../Tests-auto/test-auto.o ../Tests-auto/test-caso3-auto.o ../Tests-auto/test-caso4-auto.o usuario.o tarjeta.o articulo.o pedido-articulo.o pedido.o usuario-pedido.o ../P1/cadena.o ../P1/fecha.o ../luhn.o
 #  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
+#  Last modified 2022-06-05 17:59:32.917368422
+#  File has been updated.
+#  Successfully updated.
 #  recipe to execute (from 'Makefile', line 151):
 	${CXX} -o $@ ${LDFLAGS} $^ ${EXTLIBS}
 
@@ -740,17 +752,16 @@ libreria_check: libreria_check.cpp
 # Not a target:
 ../Tests-auto/test-caso0-cadena-auto.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 19:31:21.471688643
+#  Last modified 2022-06-05 17:06:58.704429192
 #  File has been updated.
 #  Successfully updated.
 
 ../Tests-auto/test-caso0-fecha-auto.d: ../Tests-auto/test-caso0-fecha-auto.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: '../Tests-auto/test-caso0-fecha-auto'
-#  Last modified 2022-06-05 13:14:35.254351341
+#  Last modified 2022-06-05 18:37:17.758190554
 #  File has been updated.
 #  Successfully updated.
- 
 #  recipe to execute (from 'Makefile', line 159):
 	@$(CXX) -MM -MF $@ ${CPPFLAGS} $(CXXFLAGS) $<
 	@sed --regexp-extended --in-place 's,($*)\.o[ :]*,\1.o $@ : ,g' $@
@@ -758,7 +769,7 @@ libreria_check: libreria_check.cpp
 ../Tests-auto/test-caso3-auto.d: ../Tests-auto/test-caso3-auto.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: '../Tests-auto/test-caso3-auto'
-#  Last modified 2022-06-05 13:14:32.83835135
+#  Last modified 2022-06-05 18:37:16.714449094
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 159):
@@ -786,7 +797,7 @@ clean:
 usuario-pedido.d: usuario-pedido.cpp usuario-pedido.cpp usuario-pedido.hpp usuario.hpp cadena.hpp pedido.hpp tarjeta.hpp fecha.hpp pedido-articulo.hpp articulo.hpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'usuario-pedido'
-#  Last modified 2022-06-05 13:14:36.030351338
+#  Last modified 2022-06-05 18:37:17.942144731
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 159):
@@ -796,7 +807,7 @@ usuario-pedido.d: usuario-pedido.cpp usuario-pedido.cpp usuario-pedido.hpp usuar
 pedido-articulo.d: pedido-articulo.cpp pedido-articulo.cpp pedido-articulo.hpp articulo.hpp cadena.hpp fecha.hpp pedido.hpp tarjeta.hpp usuario-pedido.hpp usuario.hpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'pedido-articulo'
-#  Last modified 2022-06-05 13:14:36.318351337
+#  Last modified 2022-06-05 18:37:18.010127768
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 159):
@@ -819,14 +830,15 @@ pedido-articulo.hpp:
 
 # Not a target:
 ../P1/cadena.o:
+ 
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 19:31:19.48320901
+#  Last modified 2022-06-05 17:06:56.548631759
 #  File has been updated.
 #  Successfully updated.
 
 test-consola: test-consola.o usuario.o tarjeta.o articulo.o pedido-articulo.o pedido.o usuario-pedido.o ../P1/cadena.o ../P1/fecha.o ../luhn.o
 #  Implicit rule search has not been done.
-#  Last modified 2022-06-04 20:09:32.228274525
+#  Last modified 2022-06-05 17:59:32.601397398
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 147):
@@ -847,14 +859,14 @@ dist: distclean ../../Reyes_Torrejon_Pablo.tar.gz
 
 test-consola.o: test-consola.cpp fecha.hpp usuario.hpp cadena.hpp tarjeta.hpp articulo.hpp pedido.hpp usuario-pedido.hpp pedido-articulo.hpp
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 19:31:14.566023176
+#  Last modified 2022-06-05 17:59:27.61785443
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 articulo.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 19:41:10.821093188
+#  Last modified 2022-06-05 13:22:22.198325211
 #  File has been updated.
 #  Successfully updated.
 
@@ -875,27 +887,28 @@ usuario.cpp:
 # Not a target:
 ../Tests-auto/test-auto.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 19:31:27.185067027
+#  Last modified 2022-06-05 17:07:03.2560014
 #  File has been updated.
 #  Successfully updated.
 
 pedido.o: pedido.cpp pedido.hpp tarjeta.hpp fecha.hpp cadena.hpp usuario-pedido.hpp usuario.hpp pedido-articulo.hpp articulo.hpp
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 19:31:18.030858725
+#  Last modified 2022-06-05 17:59:31.225523582
 #  File has been updated.
 #  Successfully updated.
 
 tarjeta.o: tarjeta.cpp tarjeta.hpp fecha.hpp cadena.hpp usuario.hpp
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 19:31:16.10639462
+#  Last modified 2022-06-05 17:59:29.329697444
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 ../Tests-auto/test-caso4-auto.o:
 #  Implicit rule search has been done.
-#  File does not exist.
-#  File has not been updated.
+#  Last modified 2022-06-05 17:07:07.06364342
+#  File has been updated.
+#  Successfully updated.
 
 # Not a target:
 cadena.hpp:
@@ -913,7 +926,7 @@ cadena.hpp:
 articulo.d: articulo.cpp articulo.cpp articulo.hpp cadena.hpp fecha.hpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'articulo'
-#  Last modified 2022-06-05 13:14:36.370351337
+#  Last modified 2022-06-05 18:37:18.038120659
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 159):
@@ -931,14 +944,14 @@ check: usuario.cpp tarjeta.cpp articulo.cpp pedido-articulo.cpp pedido.cpp usuar
 # Not a target:
 articulo.hpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 19:07:24.920897045
+#  Last modified 2022-06-05 13:44:41.229247389
 #  File has been updated.
 #  Successfully updated.
 
 usuario.d: usuario.cpp usuario.cpp usuario.hpp cadena.hpp tarjeta.hpp fecha.hpp articulo.hpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'usuario'
-#  Last modified 2022-06-05 13:14:36.526351337
+#  Last modified 2022-06-05 18:37:18.146093238
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 159):
@@ -948,7 +961,7 @@ usuario.d: usuario.cpp usuario.cpp usuario.hpp cadena.hpp tarjeta.hpp fecha.hpp 
 # Not a target:
 usuario.hpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-03 21:18:17.202783
+#  Last modified 2022-06-05 16:59:10.615942381
 #  File has been updated.
 #  Successfully updated.
 
@@ -964,7 +977,7 @@ valgrind: test-consola test-P4-auto
 # Not a target:
 ../Tests-auto/test-caso0-fecha-auto.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 19:31:23.128088215
+#  Last modified 2022-06-05 17:07:00.984214942
 #  File has been updated.
 #  Successfully updated.
 
@@ -976,24 +989,25 @@ test-caso1-2-auto.o: ../Tests-auto/test-caso1-2-auto.cpp ../Tests-auto/test-auto
 # Not a target:
 ../Tests-auto/test-caso3-auto.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 19:31:30.537876108
+#  Last modified 2022-06-05 17:07:05.703771282
 #  File has been updated.
 #  Successfully updated.
 
 usuario-pedido.o: usuario-pedido.cpp usuario-pedido.hpp usuario.hpp cadena.hpp pedido.hpp tarjeta.hpp fecha.hpp pedido-articulo.hpp articulo.hpp
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 19:31:18.887065228
+ 
+#  Last modified 2022-06-05 17:59:32.409415005
 #  File has been updated.
 #  Successfully updated.
 
 pedido-articulo.o: pedido-articulo.cpp pedido-articulo.hpp articulo.hpp cadena.hpp fecha.hpp pedido.hpp tarjeta.hpp usuario-pedido.hpp usuario.hpp
 #  Implicit rule search has been done.
-#  Last modified 2022-06-04 19:31:17.362697586
+#  Last modified 2022-06-05 17:59:30.229614915
 #  File has been updated.
 #  Successfully updated.
 
 # files hash-table stats:
-# Load=85/1024=8%, Rehash=0, Collisions=28/397=7%
+# Load=85/1024=8%, Rehash=0, Collisions=28/398=7%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
@@ -1003,9 +1017,9 @@ pedido-articulo.o: pedido-articulo.cpp pedido-articulo.hpp articulo.hpp cadena.h
 # strcache buffers: 1 (0) / strings = 110 / storage = 1883 B / avg = 17 B
 # current buf: size = 8162 B / used = 1883 B / count = 110 / avg = 17 B
 
-# strcache performance: lookups = 436 / hit rate = 74%
+# strcache performance: lookups = 438 / hit rate = 74%
 # hash-table stats:
-# Load=110/8192=1%, Rehash=0, Collisions=17/436=4%
-# Finished Make data base on Sun Jun  5 13:14:37 2022
+# Load=110/8192=1%, Rehash=0, Collisions=17/438=4%
+# Finished Make data base on Sun Jun  5 18:37:18 2022
 
  

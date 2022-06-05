@@ -87,8 +87,9 @@ Tarjeta::Tipo Tarjeta::tipo()const{
         if(numero_.num_[1] == '4' || numero_.num_[1] == '7'){
             aux = AmericanExpress;
         }
-        else
+        else{
             aux = JCB;
+        }
     }
     else if(numero_.num_[0] == '4'){
         aux = VISA;
@@ -99,10 +100,39 @@ Tarjeta::Tipo Tarjeta::tipo()const{
     else if(numero_.num_[0] == '6'){
         aux = Maestro;
     }
-    else
+    else{
         aux = Otro;
-    
+    }
     return aux;
+}
+//observadores
+Numero Tarjeta::numero()const {
+    return numero_;
+}
+
+const Usuario* Tarjeta::titular()const{
+    return titular_;
+}
+
+Fecha Tarjeta::caducidad()const {
+    return caducidad_;
+}
+
+bool Tarjeta::activa()const{
+    return activa_;
+}
+
+bool Tarjeta::activa(bool par){
+    activa_ = par; 
+    return activa_;
+}
+
+Fecha Tarjeta::Caducada::cuando()const{
+    return f_caducada_;
+}
+
+Numero Tarjeta::Num_duplicado::que() const {
+    return num_;
 }
 
 void Tarjeta::anula_titular(){

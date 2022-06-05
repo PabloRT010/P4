@@ -38,19 +38,20 @@ class Tarjeta{
     Tarjeta(const Tarjeta& t) = delete;
     Tarjeta& operator =(const Tarjeta& t) = delete;
     //observadoras
-    Numero numero()const {return numero_;}
-    const Usuario* titular()const{return titular_;}
-    Fecha caducidad()const {return caducidad_;}
-    bool activa()const{return activa_;}
+    Numero numero()const;
+    const Usuario* titular()const;
+    Fecha caducidad()const ;
+    bool activa()const;
     Tipo tipo() const;
 
-    bool activa(bool par){activa_ = par; return activa_;}
+    bool activa(bool par);
     void anula_titular();
     friend bool operator <(const Tarjeta& a, const Tarjeta& b);
+
     class Caducada{
         public:
         Caducada(const Fecha& f):f_caducada_(f){}
-        const Fecha& cuando()const{return f_caducada_;}
+        Fecha cuando()const;
 
         private:
         Fecha f_caducada_;
@@ -59,7 +60,7 @@ class Tarjeta{
     class Num_duplicado{
         public:
         Num_duplicado(const Numero& num): num_(num){}
-        const Numero& que() const {return num_;}
+        Numero que() const;
 
         private:
         Numero num_;
@@ -69,9 +70,9 @@ class Tarjeta{
     friend Usuario;
     ~Tarjeta();
     private:
-    const Numero numero_;
+    Numero numero_;
     const Usuario* titular_;
-    const Fecha caducidad_;
+    Fecha caducidad_;
     bool activa_;
     typedef std::set<Numero> TAR; //duplicidad de tarjeta
     static TAR TAR_;

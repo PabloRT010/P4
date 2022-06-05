@@ -48,7 +48,7 @@ class Usuario{
     Usuario(const Usuario& u) = delete; //impedimos que un usuario se construya en base aa otro
     Usuario& operator =(const Usuario& u) = delete;
 
-    //consultoras
+    //observadores
     Cadena id() const;
     Cadena nombre() const ;
     Cadena apellidos() const;
